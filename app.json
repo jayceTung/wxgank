@@ -20,5 +20,31 @@
     "uploadFile": 10000,
     "downloadFile": 10000
   },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#35495e",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/main/main",
+        "iconPath": "images/dis_unselected.png",
+        "selectedIconPath": "images/dis_selected.png"
+      },
+      {
+        "text": "目录",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/dis_unselected.png",
+        "selectedIconPath": "images/dis_selected.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/post/post",
+        "iconPath": "images/dis_unselected.png",
+        "selectedIconPath": "images/dis_selected.png"
+      }
+    ]
+  },
   "debug": true
 }

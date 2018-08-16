@@ -36,8 +36,6 @@ Page({
       targetUrl = targetUrl + "?publishTime=" + event.currentTarget.dataset.publishTime;
       console.log('onItemClick url = ' + targetUrl);
     }
-      
-
     wx.navigateTo({
       url: targetUrl
     });
