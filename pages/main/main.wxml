@@ -1,0 +1,18 @@
+<!--pages/main/main.wxml-->
+<!--main.wxml-->
+<view>
+  <loading hidden='{{hidden}}'>
+    加载中...
+  </loading>
+
+  <view class='card' wx:for='{{items}}'wx:key='{{items._id}}' >
+    <view data-public-time='{{item.time}}'  bindtap='onItemClick'>
+      <!-- <image class='image' mode='aspectFill' src='{{item.src}}'/> -->
+      <!-- <rich-text nodes='{{item.content}}}' type='text' bindtap="touchstart"/> -->
+      <text class='time'>{{item.publishedAt}}</text>
+      <view class='title'>{{item.title}}</view>
+    </view>
+  </view>
+
+  <icon type='success' size='50' class='post' bindtap='onPostClick'/>
+</view>

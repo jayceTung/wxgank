@@ -1,0 +1,32 @@
+/* pages/main/main.wxss */
+.card {
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 4px 1px 1px #cccccc;
+  margin: 12px;
+  position: relative;
+  text-align:left;
+  padding: 20px;
+  font-size: 14px;
+}
+.time {
+  z-index: 1px;
+  top: -20px;
+}
+.title {
+  z-index: 1px;
+  margin-top: 10px;
+}
+.post {
+    float: right;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    border: 0 solid #ffffff;
+    border-radius: 500px;
+    margin: 16px;
+    box-shadow: 4px 1px 1px #cccccc;
+}
